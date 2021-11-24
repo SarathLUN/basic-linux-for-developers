@@ -1,5 +1,8 @@
-# WORKSHOP: Basic Linux for Developers
-Date: 1 full-day on 2021-12-03 10:00 AM ;  Location: EZECOM HQ
+# `</>` Basic Linux for Developers `</>`;
+
+#### WORKSHOP # 01; 
+#### Date: 1 full-day on 2021-12-03 10:00 AM;  
+#### Location: EZECOM HQ;
 
 ---
 
