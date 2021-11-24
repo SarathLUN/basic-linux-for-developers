@@ -7,8 +7,9 @@ Date: 1 full-day on 2021-12-03 10:00 AM ;  Location: EZECOM HQ
 
 - To share some basic command lines those are needed for daily development operation
 - Almost every server are linux
-- We may full stack from infrastructure upto coding
+- We may full stack from infrastructure, system, upto coding
 - IaaC (Infrastructure as a Code) start from this too
+- Linux also run in container
 
 ## Prerequisite:
 
