@@ -1,5 +1,7 @@
-# Basic Linux for Developers
-Date: 1 full-day on 2021-11-27 09:00 AM ;  Location: EZECOM HQ
+# WORKSHOP: Basic Linux for Developers
+Date: 1 full-day on 2021-12-03 10:00 AM ;  Location: EZECOM HQ
+
+---
 
 ## Objectives:
 
@@ -7,6 +9,11 @@ Date: 1 full-day on 2021-11-27 09:00 AM ;  Location: EZECOM HQ
 - Almost every server are linux
 - We may full stack from infrastructure upto coding
 - IaaC (Infrastructure as a Code) start from this too
+
+## Prerequisite:
+
+To be able to practise in this workshop session you need to have a linux machine ready ether localhost, on-premise, cloud.
+I recommend getting EC2 instant ready in AWS.
 
 ## 1. user and login
 
@@ -95,16 +102,152 @@ apt install tree # for Debian family
 
 also check more detail about default package manager [here](https://www.makeuseof.com/tag/power-choice-power-package-management/).
 
-## 3. operation file and folder
+## 3. operation on file and folder
 
 - create file
+
+```shell
+touch $file_name
+```
+
 - update file
+
+```shell
+vim $file_name
+```
+
 - remove file
+
+```shell
+rm $file_name
+```
+- read file
+
+```shell
+cat $file_name
+less $file_name
+tail $file_name
+grep 'search key word' $file_name
+```
+
 - create directory
+
+```shell
+mkdir $directory_name
+```
+
 - remove directory
+
+```shell
+rm $directory_name
+```
+
 - copy
+
+```shell
+cp $source_path $destination_path
+```
+
 - move
 
+```shell
+mv $source_path $destination_path
+```
+
 ## 4. permission
+
+4 blocks:
+1. identify directory or file
+2. permission of user owner
+3. permission of group owner
+4. permission of other user
+
+```shell
+-rw-r--r--    1 sarath  staff   1.1K Nov 22 11:18 package.json
+drwxr-xr-x   11 sarath  staff   352B Nov 23 09:30 src
+```
+
+**The above `package.json`:**
+
+- it is a file, not a directory
+- user owner = `sarath` with permission `read` + `write`.
+- group owner = `staff` with permission `read` only, thus all users in this group will be able to `read` this file.
+- other user who not in the group `staff` will have permission `read` only.
+
+**The above `src`:**
+
+- it is a directory, not a file
+- user owner = `sarath` with permission `read` + `write` + `execute` (`execute` on a directory = open)
+- group owner = `staff` with permission `read` + `execute`
+- other user got permission `read` + `execute`
+
+more detail check [here](https://www.linux.com/training-tutorials/understanding-linux-file-permissions/).
+
 ## 5. service and process
+
+- show status service
+
+```shell
+systemctl status $service_name # systemctl status nginx
+```
+
+- start service
+
+```shell
+systemctl start $service_name # systemctl start nginx
+```
+
+- stop service
+
+```shell
+systemctl stop $service_name # systemctl stop nginx
+```
+
+- restart service
+
+```shell
+systemctl restart $service_name # systemctl restart nginx
+```
+
+- some services may have reload such as `nginx`
+
+```shell
+systemctl reload $service_name # systemctl reload nginx
+```
+
+- show current running processes
+
+```shell
+ps
+ps -aux
+top
+```
+
 ## 6. connection check
+
+- check IP if reachable
+
+```shell
+ping $IP_address
+ping $host_name
+```
+
+- check port if connectable
+
+```shell
+telnet $IP_address $port_number
+telnet $host_name $port_number
+```
+
+- test if able to get response page
+
+```shell
+curl $end_point
+```
+
+- get IP address of a host name
+
+```shell
+nslookup $host_name
+nslookup $IP_address
+```
