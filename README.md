@@ -8,15 +8,16 @@
 
 ## Why developer need to know Linux?
 
-- More or less, we will manage servers in microservices architecture
+- In microservices architecture, more or less, we will need to hand-on Linux server 
 - Almost every server are linux, event the container
 - If you are a full-stack engineer, you may need to cover everything from infrastructure to system architecture, application architecture, then coding
 
 ## Objectives:
 
+- Not to be a system administrator, but at least, this will support some part of your work
 - Get ready for full-stack engineering
-- Get ready to understand the concept of containerization
-- Get ready to start IaaC, SAaaC
+- Get ready to explore containerization
+- Get ready to start exploring IaaC, SAaaC, and more...
 - To share some basic command lines those are needed for daily development operation
 
 
