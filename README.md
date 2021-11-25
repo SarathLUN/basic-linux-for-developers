@@ -262,3 +262,7 @@ curl $end_point
 nslookup $host_name
 nslookup $IP_address
 ```
+
+## Bonus
+
+- [Linux Command-Line Tips & Tricks: Over 15 Examples!](https://www.youtube.com/watch?v=NsK7OPlK94U)
