@@ -43,7 +43,12 @@ I recommend getting EC2 instant ready in AWS.
 useradd -m $username # Ex: useradd -m tony.stark, this will create user along with home directory
 ```
 
-_your output here (image or console)_
+![useradd](images/useradd.png)
+
+```shell
+[root@ip-172-31-20-45 ~]# useradd -m tony.stark
+[root@ip-172-31-20-45 ~]#
+```
 
 - set password
 
