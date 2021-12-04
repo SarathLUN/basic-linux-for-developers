@@ -1,8 +1,8 @@
 # `</>` Basic Linux for Developers `</>`;
 
 #### WORKSHOP # 01; 
-#### Date: 1 full-day on 2021-12-03 10:00 AM;  
-#### Location: EZECOM HQ;
+#### Date: 1 full-day on 2021-12-04 14:00;  
+#### Location: Microsoft Teams;
 
 ---
 
@@ -25,6 +25,12 @@
 
 To be able to practise in this workshop session you need to have a linux machine ready ether localhost, on-premise, cloud.
 I recommend getting EC2 instant ready in AWS.
+
+## Practice along:
+
+- there will be a branch `LAB` in which you will practice and submit back the result
+- clone from branch `LAB` to your branch: `LAB-Sarath`, then start working on your branch
+- after finish this session, you will need to push your branch back to this repo
 
 ## 1. user and login
 
