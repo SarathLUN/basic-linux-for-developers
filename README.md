@@ -1,7 +1,8 @@
 # `</>` Basic Linux for Developers `</>`;
 
 #### WORKSHOP # 01; 
-#### Date: 1 full-day on 2021-12-04 14:00;  
+#### Date: 2021-12-04;  
+#### Time: 14:00 - 17:00;  
 #### Location: Microsoft Teams;
 
 ---
@@ -30,7 +31,7 @@ I recommend getting EC2 instant ready in AWS.
 
 ## Practice along:
 
-- there will be a branch `LAB` in which you will practice and submit back the result
+- there will be a [branch](https://github.com/SarathLUN/basic-linux-for-developers/tree/LAB) `LAB` in which you will practice and submit back the result
 - clone from branch `LAB` to your branch: `LAB-Sarath`, then start working on your branch
 - after finish this session, you will need to push your branch back to this repo
 
