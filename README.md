@@ -63,7 +63,7 @@ passwd $username # Ex: passwd tony.stark, then enter the password and confirm pa
 usermod -G sudo $username # add user to group sudo
 ```
 
-_your output here (image or console)_
+![usermod-bros-stark](images/usermod-bros-stark.PNG)
 
 - login
 
