@@ -53,7 +53,7 @@ useradd -m $username # Ex: useradd -m tony.stark, this will create user along wi
 passwd $username # Ex: passwd tony.stark, then enter the password and confirm password
 ```
 
-![password](images/)
+![password](images/password.PNG)
 
 - add group member
 
