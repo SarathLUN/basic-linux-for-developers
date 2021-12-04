@@ -56,7 +56,7 @@ useradd -m $username # Ex: useradd -m tony.stark, this will create user along wi
 passwd $username # Ex: passwd tony.stark, then enter the password and confirm password
 ```
 
-_your output here (image or console)_
+![passwd](images/passwd.png)
 
 - add group member
 
@@ -64,7 +64,7 @@ _your output here (image or console)_
 usermod -G sudo $username # add user to group sudo
 ```
 
-_your output here (image or console)_
+![usermod](images/usermod.png)
 
 - login
 
@@ -74,7 +74,7 @@ ssh $username@$hostname # default port ssh = 22
 ssh -p $port_number $username@$hostname # custom port ssh
 ```
 
-_your output here (image or console)_
+![ssh-with-port](images/ssh-with-port.png)
 
 - switch user
 
@@ -82,7 +82,7 @@ _your output here (image or console)_
 sudo -i # switch to user root
 ```
 
-_your output here (image or console)_
+![sudo](images/sudo.png)
 
 ## 2. exploration
 
@@ -94,7 +94,7 @@ pwd # show the path of current working directory
 
 In path, `.` is referred to current directory, while `..` is refer to parent directory (1 level up).
 
-_your output here (image or console)_
+![pwd](images/pwd.png)
 
 - change directory
 
@@ -107,7 +107,13 @@ cd .. # change directory to parent directory in 1 level up
 cd ../.. # change directory to parent directory in 2 levels up
 ```
 
-_your output here (image or console)_
+![cd-home](images/cd-home.png)
+
+![cd-current](images/cd-current.png)
+
+![cd-parent-1](images/cd-parent-1.png)
+
+![cd-parent-2](images/cd-parent-2.png)
 
 - hidden
 
@@ -118,7 +124,7 @@ drwxr-xr-x   13 sarath  staff   416B Nov 23 16:55 .git # this is a hidden direct
 -rw-r--r--    1 sarath  staff   620B Nov  6 22:11 .gitignore # this is a hidden file
 ```
 
-_your output here (image or console)_
+![hidden](images/hidden.png)
 
 - list
 
@@ -128,7 +134,7 @@ ls -l # list out in detail base layout of files & sub-directories in current dir
 ls -la # list out in detail base layout of files & sub-directories (including hidden) in current directory
 ```
 
-_your output here (image or console)_
+![ls](images/ls.png)
 
 - tree view
 
@@ -136,7 +142,7 @@ _your output here (image or console)_
 tree . # tree view of current directory
 ```
 
-_your output here (image or console)_
+![tree](images/tree.png)
 
 Some linux may not install `tree` by default, however we still can install via its package manager
 
