@@ -39,11 +39,13 @@ I recommend getting EC2 instant ready in AWS.
 
 - create user
 
+
+
 ```shell
 useradd -m $username # Ex: useradd -m tony.stark, this will create user along with home directory
 ```
+![image](images/useradd.PNG)
 
-_your output here (image or console)_
 
 - set password
 
@@ -51,7 +53,7 @@ _your output here (image or console)_
 passwd $username # Ex: passwd tony.stark, then enter the password and confirm password
 ```
 
-_your output here (image or console)_
+![password](images/)
 
 - add group member
 
