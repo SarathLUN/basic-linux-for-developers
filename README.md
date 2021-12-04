@@ -50,15 +50,12 @@ useradd -m $username # Ex: useradd -m tony.stark, this will create user along wi
 [root@ip-172-31-20-45 ~]# useradd -m bros.stark
 ```
 
-_your output here (image or console)_
-
 - set password
 
 ```shell
 passwd $username # Ex: passwd tony.stark, then enter the password and confirm password
 ```
-
-_your output here (image or console)_
+![passwd-bros-stark](images/passwd-bros-stark.PNG)
 
 - add group member
 
