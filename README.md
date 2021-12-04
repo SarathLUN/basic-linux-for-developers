@@ -161,7 +161,7 @@ also check more detail about default package manager [here](https://www.makeuseo
 touch $file_name
 ```
 
-_your output here (image or console)_
+![touch](images/touch.png)
 
 - update file
 
@@ -169,7 +169,24 @@ _your output here (image or console)_
 vim $file_name
 ```
 
-_your output here (image or console)_
+when we start `vim` a file, it come like this.
+
+![vim-01](images/vim-01.png)
+
+to be able to edit file in `vim`, press `i` or `Insert` key on your keyboard
+
+![vim-02](images/vim-02.png)
+
+after editing, you can press `Esc` key on your keyboard to exit from insert mode to command mode.
+
+![vim-03](images/vim-03.png)
+
+to save the file, we need use command `:w`
+to save and exit the file, we need to use command `:x`
+
+![vim-04](images/vim-04.png)
+
+![vim-05](images/vim-05.png)
 
 - remove file
 
@@ -177,7 +194,7 @@ _your output here (image or console)_
 rm $file_name
 ```
 
-_your output here (image or console)_
+![remove-file](images/remove.png)
 
 - read file
 
@@ -188,7 +205,22 @@ tail $file_name
 grep 'search key word' $file_name
 ```
 
-_your output here (image or console)_
+![cat](images/cat.png)
+
+![less](images/less.png)
+
+press `q` or `Control + C` on the keyboard to exit the `less` program
+
+![tail](images/tail.png)
+
+by default, `tail` will return bottom 10 lines of the file.
+However, we can specify the number of lines to be returned.
+
+![tail-02](images/tail-02.png)
+
+![grep](images/grep.png)
+
+this command I search for "systemd" in file `/var/log/messages`, then I output only 10 lines by `| tail`.
 
 - create directory
 
@@ -196,7 +228,7 @@ _your output here (image or console)_
 mkdir $directory_name
 ```
 
-_your output here (image or console)_
+![mkdir](images/mkdir.png)
 
 - remove directory
 
@@ -204,7 +236,7 @@ _your output here (image or console)_
 rm $directory_name
 ```
 
-_your output here (image or console)_
+![remove-directory](images/remove-directory.png)
 
 - copy
 
@@ -212,7 +244,7 @@ _your output here (image or console)_
 cp $source_path $destination_path
 ```
 
-_your output here (image or console)_
+![copy](images/copy.png)
 
 - move
 
@@ -220,7 +252,7 @@ _your output here (image or console)_
 mv $source_path $destination_path
 ```
 
-_your output here (image or console)_
+![move](images/move.png)
 
 ## 4. permission
 
@@ -251,7 +283,6 @@ drwxr-xr-x   11 sarath  staff   352B Nov 23 09:30 src
 
 more detail check [here](https://www.linux.com/training-tutorials/understanding-linux-file-permissions/).
 
-_your output here (image or console)_
 
 ## 5. service and process
 
@@ -261,7 +292,7 @@ _your output here (image or console)_
 systemctl status $service_name # systemctl status nginx
 ```
 
-_your output here (image or console)_
+![service-status](images/service-status.png)
 
 - start service
 
@@ -269,15 +300,11 @@ _your output here (image or console)_
 systemctl start $service_name # systemctl start nginx
 ```
 
-_your output here (image or console)_
-
 - stop service
 
 ```shell
 systemctl stop $service_name # systemctl stop nginx
 ```
-
-_your output here (image or console)_
 
 - restart service
 
@@ -285,15 +312,11 @@ _your output here (image or console)_
 systemctl restart $service_name # systemctl restart nginx
 ```
 
-_your output here (image or console)_
-
 - some services may have reload such as `nginx`
 
 ```shell
 systemctl reload $service_name # systemctl reload nginx
 ```
-
-_your output here (image or console)_
 
 - show current running processes
 
@@ -303,7 +326,11 @@ ps -aux
 top
 ```
 
-_your output here (image or console)_
+![ps](images/ps.png)
+
+![ps-aux](images/ps-aux.png)
+
+![top](images/top.png)
 
 ## 6. connection check
 
@@ -314,7 +341,7 @@ ping $IP_address
 ping $host_name
 ```
 
-_your output here (image or console)_
+![ping](images/ping.png)
 
 - check port if connectable
 
@@ -323,7 +350,7 @@ telnet $IP_address $port_number
 telnet $host_name $port_number
 ```
 
-_your output here (image or console)_
+![telnet](images/telnet.png)
 
 - test if able to get response page
 
@@ -331,7 +358,7 @@ _your output here (image or console)_
 curl $end_point
 ```
 
-_your output here (image or console)_
+![curl](images/curl.png)
 
 - get IP address of a host name
 
@@ -340,7 +367,7 @@ nslookup $host_name
 nslookup $IP_address
 ```
 
-_your output here (image or console)_
+![nslookup](images/nslookup.png)
 
 ## Bonus
 
