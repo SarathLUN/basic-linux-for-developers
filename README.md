@@ -1,7 +1,7 @@
 # `</>` Basic Linux for Developers `</>`;
 
 #### WORKSHOP # 01; 
-#### Date: 2021-12-04 14:00;  
+#### Date: 2021-12-04;  
 #### Time: 14:00 - 17:00;  
 #### Location: Microsoft Teams;
 
