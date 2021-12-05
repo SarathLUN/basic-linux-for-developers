@@ -93,7 +93,7 @@ pwd # show the path of current working directory
 
 In path, `.` is referred to current directory, while `..` is refer to parent directory (1 level up).
 
-_your output here (image or console)_
+![pwd](images/pwd.PNG)
 
 - change directory
 
@@ -135,8 +135,7 @@ _your output here (image or console)_
 tree . # tree view of current directory
 ```
 
-_your output here (image or console)_
-
+![tree](images/tree.PNG)
 Some linux may not install `tree` by default, however we still can install via its package manager
 
 ```shell
@@ -154,7 +153,7 @@ also check more detail about default package manager [here](https://www.makeuseo
 touch $file_name
 ```
 
-_your output here (image or console)_
+![touch](images/touch.PNG)
 
 - update file
 
@@ -162,7 +161,11 @@ _your output here (image or console)_
 vim $file_name
 ```
 
-_your output here (image or console)_
+![vim](images/vim.PNG)
+
+![vim_hello_world](images/vim_hello_world.PNG)
+
+![vim_x!](images/vim_x!.PNG)
 
 - remove file
 
@@ -170,7 +173,7 @@ _your output here (image or console)_
 rm $file_name
 ```
 
-_your output here (image or console)_
+![rm](images/rm.PNG)
 
 - read file
 
@@ -181,15 +184,16 @@ tail $file_name
 grep 'search key word' $file_name
 ```
 
-_your output here (image or console)_
-
+![cat](images/cat.PNG)
+![less](images/less.PNG)
+![tail](images/tail.PNG)
 - create directory
 
 ```shell
 mkdir $directory_name
 ```
 
-_your output here (image or console)_
+![mkdir](images/mkdir.PNG)
 
 - remove directory
 
@@ -197,7 +201,7 @@ _your output here (image or console)_
 rm $directory_name
 ```
 
-_your output here (image or console)_
+![rm_folder](images/rm_folder.PNG)
 
 - copy
 
@@ -205,7 +209,7 @@ _your output here (image or console)_
 cp $source_path $destination_path
 ```
 
-_your output here (image or console)_
+![cp](images/cp.PNG)
 
 - move
 
@@ -213,7 +217,7 @@ _your output here (image or console)_
 mv $source_path $destination_path
 ```
 
-_your output here (image or console)_
+![mv](images/mv.PNG)
 
 ## 4. permission
 
@@ -307,7 +311,7 @@ ping $IP_address
 ping $host_name
 ```
 
-_your output here (image or console)_
+![ping](images/ping.PNG)
 
 - check port if connectable
 
@@ -324,7 +328,7 @@ _your output here (image or console)_
 curl $end_point
 ```
 
-_your output here (image or console)_
+![curl](images/curl.PNG)
 
 - get IP address of a host name
 
@@ -333,7 +337,8 @@ nslookup $host_name
 nslookup $IP_address
 ```
 
-_your output here (image or console)_
+![nslookup](images/nslookup.PNG)
+
 
 ## Bonus
 
